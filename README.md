@@ -21,9 +21,14 @@ Third version with complex signs, the sign detector is also a custom neural netw
 
 # Instructions for running and testing.
 
-1. Create and activate an environment in which all the imports are installed. (All the imports are at the top of the code. I used an anaconda environment but a standard python environment should work as well)
-2. cd to the directory where both sign-language-detection-and-translation.py, MP_model_head.pkl and both csvs are stored
-3. Python run sign-language-detection-and-translation.py or run all the cells of the jupyter notebook.(They're the same)
+1. Create a python environment, activate it and install all the required libraries.
+```cmd
+pip install -r requirements.txt
+```
+2. Python run sign-language-detection-and-translation.py or run all the cells of the jupyter notebook.(They're the same)
+```cmd
+python sign-language-detection-and-translation.py
+```
 
 ## Trained signs 
 Hello (waving with palm facing camera), my (right hand palm flat on chest), name (both hands letter h with right-hand fingers resting on left-hand fingers), me (right hand pointing at your chest), The entire alphabet as shown [here](https://www.youtube.com/watch?v=WNigt-vfTX0&t=5s).
